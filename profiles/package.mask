@@ -1,0 +1,68 @@
+# Copyright 1999-2015 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+# These ebuilds are currently failing due to unknown reasons
+=net-wireless/gr-ldpc-9999
+=net-wireless/gr-fbmc-9999
+=net-wireless/gr-ysf-9999
+
+# These packages do not use cmake and need review
+=net-wireless/gr-benchmark-9999
+=net-wireless/gr-pocsag-9999
+=net-wireless/gr-smartnet-9999
+=net-wireless/gr-op25-9999
+=net-wireless/gr-fsk-burst-9999
+=net-wireless/gr-psk-burst-9999
+=net-wireless/gr-supacars-9999
+=net-wireless/gr-amps-9999
+
+# These packages seem to be integrated into the core gnuradio package now
+# (Fail due to file collisions)
+=net-wireless/gr-pager-9999
+=sci-libs/volk-9999
+
+# Causes gnuradio's docstring loader to crash
+=net-wireless/gr-radar-9999
+=net-wireless/gr-pyqt-9999
+=net-wireless/smithchart-9999
+
+# Seems to ignore dest directory during install phase
+=net-libs/libfec-9999
+
+# Requires libfec
+=net-wireless/gr-satellites-9999
+
+# Depends on Qt4
+=net-wireless/gr-inspector-9999
+=net-wireless/gr-display-9999
+=net-wireless/gr-fosphor-9999
+
+# Fails looking for uhd/utils/thread.hpp
+=net-wireless/gr-analysis-9999
+
+# CMake errors
+=net-wireless/gr-microtelecom-9999
+
+# Requires >=armadillo-7.300
+=net-wireless/gr-doa-9999
+
+# Requires RFNoC
+=net-wireless/gr-ettus-9999
+
+# multilib-strict check failed!
+=net-libs/libad9361-9999
+
+# Depends on libad9361
+=net-wireless/gr-iio-9999
+
+# fatal error: numpy/arrayobject.h: No such file or directory
+=net-wireless/gr-bokehgui-9999
+
+# error: 'avcodec_alloc_frame' was not declared in this scope
+=net-wireless/gr-mediatools-9999
+
+# Could NOT find NOVA (missing:  NOVA_LIBRARIES NOVA_INCLUDE_DIRS)
+=net-wireless/gr-satnogs-9999
+
+# Depends on missing package: dev-python/pyqwt:5
+=net-wireless/gr-ofdm-9999

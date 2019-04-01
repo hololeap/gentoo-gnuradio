@@ -1,0 +1,31 @@
+# Copyright 1999-2015 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+# Trying to use doc with the following packages results in an error:
+### /bin/sh: *_swig_doc_swig_docs/Doxyfile: Permission denied
+# (related?) https://github.com/yarda/gr-fcdproplus/commit/176f7b98ca03a066dda884f6cdbfbb82bc82d3e1
+=net-wireless/gr-dsss-9999 doc
+=net-wireless/gr-gps-9999 doc
+=net-wireless/gr-lte-9999 doc
+=net-wireless/gr-tpms-9999 doc
+=net-wireless/gr-cdma-9999 doc
+=net-wireless/gr-mac-9999 doc
+=net-wireless/gr-mapper-9999 doc
+=net-wireless/gr-message_tools-9999 doc
+=net-wireless/gr-tagutils-9999 doc
+=net-wireless/gr-baz-9999 doc
+=net-wireless/gr-dvbs2-9999 doc
+=net-wireless/gr-fbmc-9999 doc
+=net-wireless/gr-framers-9999 doc
+=net-wireless/gr-ra_blocks-9999 doc
+=net-wireless/gr-rstt-9999 doc
+=net-wireless/gr-rtty-9999 doc
+=net-wireless/gr-foo-9999 doc
+=net-wireless/gr-burst-9999 doc
+=net-wireless/gr-drm-9999 doc
+=net-wireless/gr-bluetooth-9999 doc
+=net-wireless/gr-mixalot-9999 doc
+=net-wireless/gr-ieee80211-9999 doc
+=net-wireless/gr-mediatools-9999 doc
+=net-wireless/gr-ofdm-9999 doc
+=net-wireless/gr-specest-9999 doc

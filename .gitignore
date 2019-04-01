@@ -1,0 +1,4 @@
+# Do not add MD5 metadata cache
+/metadata/md5-cache
+
+.*.sw?

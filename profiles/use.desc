@@ -1,0 +1,11 @@
+# Copyright 1999-2017 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+
+bladerf - Build with Nuand BladeRF support
+fcd - Build with Funcube Dongle support
+hackrf - Build with Great Scott Gadgets HackRF support
+iqbalance - Enable support for I/Q balancing using gr-iqbal
+mirisdr - Build with Mirics MSi2500 + MSi001 SDR support
+rtlsdr - Build with Realtek RTL2832U (rtlsdr) support
+uhd - Build with Ettus Research USRP Hardware Driver support
+
