@@ -1,5 +1,8 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
+
+# Need to figure out how to get these working again
+=net-wireless/uhd-9999
 
 # These ebuilds are currently failing due to unknown reasons
 =net-wireless/gr-ldpc-9999
@@ -66,3 +69,99 @@
 
 # Depends on missing package: dev-python/pyqwt:5
 =net-wireless/gr-ofdm-9999
+
+# Mask everything until it has been tested
+=net-libs/libosmo-dsp-9999
+=net-libs/libperseus-sdr-9999
+=net-wireless/gr-acars2-9999
+=net-wireless/gr-adsb-9999
+=net-wireless/gr-air-modes-9999
+=net-wireless/gr-ais-9999
+=net-wireless/gr-ale-9999
+=net-wireless/gr-ambe3000-9999
+=net-wireless/gr-ax25-9999
+=net-wireless/gr-baz-9999
+=net-wireless/gr-bluetooth-9999
+=net-wireless/gr-bruninga-9999
+=net-wireless/gr-burst-9999
+=net-wireless/gr-cdma-9999
+=net-wireless/gr-clenabled-9999
+=net-wireless/gr-compat-9999
+=net-wireless/gr-correctiq-9999
+=net-wireless/gr-csp-9999
+=net-wireless/gr-dab-9999
+=net-wireless/gr-dect2-9999
+=net-wireless/gr-drm-9999
+=net-wireless/gr-dsd-9999
+=net-wireless/gr-dsss-9999
+=net-wireless/gr-dvbs2-9999
+=net-wireless/gr-dvbt-9999
+=net-wireless/gr-dvbt2-9999
+=net-wireless/gr-eb200-9999
+=net-wireless/gr-elster-9999
+=net-wireless/gr-eventstream-9999
+=net-wireless/gr-fcdproplus-9999
+=net-wireless/gr-filerepeater-9999
+=net-wireless/gr-finite-stream-9999
+=net-wireless/gr-flarm-9999
+=net-wireless/gr-flexfft-9999
+=net-wireless/gr-fm0-9999
+=net-wireless/gr-foo-9999
+=net-wireless/gr-framers-9999
+=net-wireless/gr-gpredict-doppler-9999
+=net-wireless/gr-gps-9999
+=net-wireless/gr-grnet-9999
+=net-wireless/gr-gsm-9999
+=net-wireless/gr-ham-9999
+=net-wireless/gr-hpsdr-9999
+=net-wireless/gr-husban-9999
+=net-wireless/gr-ieee80211-9999
+=net-wireless/gr-ieee802154-9999
+=net-wireless/gr-iio-9999
+=net-wireless/gr-iqbal-9999
+=net-wireless/gr-iridium-9999
+=net-wireless/gr-isdbt-9999
+=net-wireless/gr-keyfob-9999
+=net-wireless/gr-kiss-9999
+=net-wireless/gr-lacrosse-9999
+=net-wireless/gr-lfast-9999
+=net-wireless/gr-lilacsat-9999
+=net-wireless/gr-lora-9999
+=net-wireless/gr-lpwan-9999
+=net-wireless/gr-lte-9999
+=net-wireless/gr-mac-9999
+=net-wireless/gr-mapper-9999
+=net-wireless/gr-mer-9999
+=net-wireless/gr-message_tools-9999
+=net-wireless/gr-mixalot-9999
+=net-wireless/gr-multimon-9999
+=net-wireless/gr-nacl-9999
+=net-wireless/gr-nmea-9999
+=net-wireless/gr-nordic-9999
+=net-wireless/gr-nrsc5-9999
+=net-wireless/gr-osmosdr-9999
+=net-wireless/gr-outernet-9999
+=net-wireless/gr-packetradio-9999
+=net-wireless/gr-paint-9999
+=net-wireless/gr-pcap-9999
+=net-wireless/gr-pico-9999
+=net-wireless/gr-polaris-9999
+=net-wireless/gr-psk31-9999
+=net-wireless/gr-ra_blocks-9999
+=net-wireless/gr-rds-9999
+=net-wireless/gr-remotecar-9999
+=net-wireless/gr-reveng-9999
+=net-wireless/gr-rftap-9999
+=net-wireless/gr-rstt-9999
+=net-wireless/gr-rtty-9999
+=net-wireless/gr-signal_exciter-9999
+=net-wireless/gr-specest-9999
+=net-wireless/gr-streamsink-9999
+=net-wireless/gr-symbolrate-9999
+=net-wireless/gr-tagutils-9999
+=net-wireless/gr-tf-9999
+=net-wireless/gr-theano-9999
+=net-wireless/gr-tpms-9999
+=net-wireless/gr-tutorial-9999
+=net-wireless/gr-uhdgps-9999
+=net-wireless/gr-zmqblocks-9999

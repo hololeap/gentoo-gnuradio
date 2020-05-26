@@ -12,4 +12,4 @@ KEYWORDS=""
 DEPEND="net-libs/libosmocore:=
 	net-wireless/gr-osmosdr:="
 
-inherit gnuradio git-r3
+inherit git-r3 gnuradio

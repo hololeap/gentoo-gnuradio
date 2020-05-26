@@ -51,16 +51,16 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 # @INTERNAL
 # @DESCRIPTION:
 # Join any custom USE dependencies (set using $GNURADIO_USE_DEPS) and
-# $PYTHON_USEDEP.
+# $PYTHON_SINGLE_USEDEP.
 
 _gnuradio_join_use_deps() {
 	local use_deps
 
 	if [[ -z $GNURADIO_USE_DEPS ]]; then
-		use_deps="$PYTHON_USEDEP"
+		use_deps="$PYTHON_SINGLE_USEDEP"
 	else
 		use_deps=${GNURADIO_USE_DEPS[@]}
-		use_deps+=( "${PYTHON_USEDEP}" )
+		use_deps+=( "${PYTHON_SINGLE_USEDEP}" )
 	fi
 
 	# Join the elements of the array with commas
@@ -69,7 +69,7 @@ _gnuradio_join_use_deps() {
 }
 
 RDEPEND=">=net-wireless/gnuradio-3.7_rc:0=[$(_gnuradio_join_use_deps)]
-	dev-libs/boost:=[${PYTHON_USEDEP}]
+	dev-libs/boost:=[${PYTHON_SINGLE_USEDEP}]
 	${PYTHON_DEPS}"
 
 DEPEND="${RDEPEND}
