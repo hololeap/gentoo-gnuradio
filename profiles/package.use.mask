@@ -29,3 +29,6 @@
 =net-wireless/gr-mediatools-9999 doc
 =net-wireless/gr-ofdm-9999 doc
 =net-wireless/gr-specest-9999 doc
+
+# This use flag has weird dependencies. Need to find out more about them later
+=net-wireless/gnuradio-9999 blocktool
